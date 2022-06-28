@@ -149,7 +149,9 @@ def main():
             "Contain pottasium",]
 
         x = random.choice(fruit)
-        print("Choose the correct answer below")
+        print("LET'S MOVE TO THE HARD PART")
+        answer=input('\nAre you ready to play the Quiz ? (yes/no) : ')
+        print("\nChoose the correct answer below")
         print("\nANSWERS OPTIONS: Contain Pottasium, Contain Zinc, Good For Digestion")
         print("\nPlease write the answer exactly like the answers options")
 
@@ -165,11 +167,65 @@ def main():
                 else:
                     print("\nYou guessed {}. Come On! !\U0001F612".format(guess))
 
-    
+    fruit = [
+            "Brigthens the skin",]
 
+        x = random.choice(fruit)
+        print("Choose the correct answer below")
+        print("\nANSWERS OPTIONS: Brigthens the skin, Prevents insomnia, Creating haemoglobin")
+        print("\nPlease write the answer exactly like the answers options")
 
+        guess = None
+
+        while x != guess:
+
+                guess = str(input("HARD: State the benefit for eating apple? \0001F619"))
+
+                if x == guess:
+                    print("\nYou guessed {}. Hurray! Correct! \U0001F601".format(guess))
+                    break
+                else:
+                    print("\nYou guessed {}. Come On! !\U0001F612".format(guess))
+
+    fruit = [
+            "Protects heart",]
+
+        x = random.choice(fruit)
+        print("Choose the correct answer below")
+        print("\nANSWERS OPTIONS: Prevents arthritis, Protects heart, Remove toxins")
+        print("\nPlease write the answer exactly like the answers options")
+
+        guess = None
+
+        while x != guess:
+
+                guess = str(input("HARD: State the benefit for eating dragonfruit? \0001F619"))
+
+                if x == guess:
+                    print("\nYou guessed {}. Hurray! Correct! \U0001F601".format(guess))
+                    break
+                else:
+                    print("\nYou guessed {}. Come On! !\U0001F612".format(guess))
         
+    fruit = [
+            "Boosts immunity",]
 
+        x = random.choice(fruit)
+        print("Choose the correct answer below")
+        print("\nANSWERS OPTIONS: Improve vision, Prevent scurvy, Boosts immunity")
+        print("\nPlease write the answer exactly like the answers options")
+
+        guess = None
+
+        while x != guess:
+
+                guess = str(input("HARD: State the benefit for eating dragonfruit? \0001F619"))
+
+                if x == guess:
+                    print("\nYou guessed {}. Hurray! Correct! \U0001F601".format(guess))
+                    break
+                else:
+                    print("\nYou guessed {}. Come On! !\U0001F612".format(guess))
 main()
        
 
