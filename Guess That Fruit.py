@@ -145,25 +145,25 @@ def main():
         else:
             print("You guessed {}. Come On! !\U0001F612".format(guess))
 
-fruit = [
-        "Contain pottasium",]
+    fruit = [
+            "Contain pottasium",]
 
-    x = random.choice(fruit)
-    print("Choose the correct answer below")
-    print("\nANSWERS OPTIONS: Contain Pottasium, Contain Zinc, Good For Digestion")
-    print("\nPlease write the answer exactly like the answers options")
-    
-    guess = None
+        x = random.choice(fruit)
+        print("Choose the correct answer below")
+        print("\nANSWERS OPTIONS: Contain Pottasium, Contain Zinc, Good For Digestion")
+        print("\nPlease write the answer exactly like the answers options")
 
-    while x != guess:
+        guess = None
 
-            guess = str(input("HARD: State the benefit for eating banana? \0001F619"))
-            
-            if x == guess:
-                print("\nYou guessed {}. Hurray! Correct! \U0001F601".format(guess))
-                break
-            else:
-                print("\nYou guessed {}. Come On! !\U0001F612".format(guess))
+        while x != guess:
+
+                guess = str(input("HARD: State the benefit for eating banana? \0001F619"))
+
+                if x == guess:
+                    print("\nYou guessed {}. Hurray! Correct! \U0001F601".format(guess))
+                    break
+                else:
+                    print("\nYou guessed {}. Come On! !\U0001F612".format(guess))
 
     
 
